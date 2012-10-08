@@ -4,9 +4,8 @@ Section: devel
 Maintainer: Yann MRN <yannubuntu@gmail.com>
 Uploaders: Alessio Treglia <alessio@debian.org>
 Build-Depends:
- debhelper (>= 7),
+ debhelper (>= 8),
  python-all
- python-support
 Standards-Version: 3.9.3
 X-Python-Version: all
 Homepage: https://launchpad.net/glade2script
