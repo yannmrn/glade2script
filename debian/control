@@ -1,0 +1,78 @@
+Source: glade2script
+Priority: optional
+Section: devel
+Maintainer: Yann MRN <yannubuntu@gmail.com>
+Uploaders: Alessio Treglia <alessio@debian.org>
+Build-Depends:
+ debhelper (>= 7),
+ python-all
+Standards-Version: 3.9.3
+X-Python-Version: all
+Homepage: https://launchpad.net/glade2script
+Vcs-Git: git://github.com/yannmrn/glade2script.git
+Vcs-Browser: https://github.com/yannmrn/glade2script
+
+Package: glade2script
+Architecture: all
+Depends:
+ python,
+ gir1.2-gtk-3.0,
+ ${misc:Depends},
+ ${python:Depends}
+Homepage: https://launchpad.net/glade2script
+Description: Glade interface engine for scripts (Gtk3 version)
+ Glade2script allows a script (Bash, Python or other) to display and
+ interact with a GUI (created with Glade).
+ .
+ Most of the opportunities offered by Gtk are available. A terminal
+ (vte) and/or webkit are integrable. One can also embed an external
+ application that supports it natively, like mplayer or gvim. A plugin
+ system was added to extend G2S capability.
+ .
+ Documentation, many examples, and an interface giving access to the
+ archive supports (simply install and run glade2script-doc).
+ .
+ Glade2script is already used by several softwares, such as Boot-Repair,
+ OS-Uninstaller, Debeditor, DeskWall, GUnity, LaunchBash, Malokal, 
+ mkv_extractor_gui, Screencastor, Sylaba2, Xee, Zenitor.
+ .
+ 2 versions are available: Gtk2 and Gtk3.
+ .
+ This package contains the executable of the Gtk3 version.
+ 
+Package: glade2script-gtk2
+Architecture: all
+Depends:
+ python,
+ python-gtk2,
+ ${misc:Depends},
+ ${python:Depends}
+Recommends: gtk2-engines-pixbuf
+Suggests:
+ libnotify,
+ python-appindicator,
+ python-glade2,
+ python-gtksourceview2,
+ python-notify,
+ python-vte,
+ python-webkit
+Homepage: https://launchpad.net/glade2script
+Description: Glade interface engine for scripts (Gtk2 version)
+ Glade2script allows a script (Bash, Python or other) to display and
+ interact with a GUI (created with Glade).
+ .
+ Most of the opportunities offered by Gtk are available. A terminal
+ (vte) and/or webkit are integrable. One can also embed an external
+ application that supports it natively, like mplayer or gvim. A plugin
+ system was added to extend G2S capability.
+ .
+ Documentation, many examples, and an interface giving access to the
+ archive supports (simply install and run glade2script-doc).
+ .
+ Glade2script is already used by several softwares, such as Boot-Repair,
+ OS-Uninstaller, Debeditor, DeskWall, GUnity, LaunchBash, Malokal, 
+ mkv_extractor_gui, Screencastor, Sylaba2, Xee, Zenitor.
+ .
+ 2 versions are available: Gtk2 and Gtk3.
+ .
+ This package contains the executable of the Gtk2 version.

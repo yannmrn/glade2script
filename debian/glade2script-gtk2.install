@@ -1,0 +1,3 @@
+etc/apport/crashdb.conf.d/glade2script-gtk2-crashdb.conf
+usr/share/apport/package-hooks/source_glade2script-gtk2.py
+usr/bin/glade2script-gtk2
