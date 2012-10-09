@@ -1,3 +1,4 @@
 etc/apport/crashdb.conf.d/glade2script-crashdb.conf
 usr/share/apport/package-hooks/source_glade2script.py
+usr/share/doc/glade2script/changelog.gz
 usr/bin/glade2script
